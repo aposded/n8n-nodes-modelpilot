@@ -293,7 +293,7 @@ Configure the Messages parameter with multiple entries:
 
 ## License
 
-[MIT](LICENSE.md)
+[MIT](LICENSE)
 
 ## Version History
 
