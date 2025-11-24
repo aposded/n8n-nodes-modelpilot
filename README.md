@@ -99,18 +99,6 @@ Check your current credit balance, subscription status, and monthly usage.
 - Monthly spending
 - Usage statistics
 
-#### Get Router Config
-
-Retrieve the configuration and settings for your ModelPilot router.
-
-**Parameters:**
-
-- **Router ID** (required): Your ModelPilot router identifier
-
-**Output:**
-
-- Complete router configuration including model selection, optimization weights, and settings
-
 #### Get Usage Summary
 
 Get detailed usage statistics and costs for a specific time range.
