@@ -53,7 +53,7 @@ class Modelpilot {
                             description: 'View balance and usage statistics',
                         },
                         {
-                            name: 'Models',
+                            name: 'Model',
                             value: 'models',
                             description: 'Browse available AI models',
                         },
