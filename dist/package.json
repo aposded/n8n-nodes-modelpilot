@@ -22,7 +22,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/aposded/n8n-nodes-modelpilot"
+        "url": "git+https://github.com/aposded/n8n-nodes-modelpilot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/aposded/n8n-nodes-modelpilot/issues"
     },
     "scripts": {
         "start": "pnpm build && docker restart n8n-dev && docker logs n8n-dev -f",
