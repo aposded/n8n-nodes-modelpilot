@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-modelpilot",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "n8n community node for ModelPilot AI model routing - intelligent API calls across multiple AI providers with automatic optimization",
     "license": "MIT",
     "homepage": "https://modelpilot.co",
