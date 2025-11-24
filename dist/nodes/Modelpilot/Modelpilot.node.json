@@ -1,0 +1,19 @@
+{
+    "node": "n8n-nodes-modelpilot",
+    "nodeVersion": "1.0",
+    "codexVersion": "1.0",
+    "categories": ["AI", "Developer Tools", "Productivity"],
+    "resources": {
+        "credentialDocumentation": [
+            {
+                "url": "https://github.com/modelpilot/n8n-nodes-modelpilot#credentials"
+            }
+        ],
+        "primaryDocumentation": [
+            {
+                "url": "https://github.com/modelpilot/n8n-nodes-modelpilot#readme"
+            }
+        ]
+    },
+    "alias": ["ModelPilot", "AI Router", "LLM"]
+}

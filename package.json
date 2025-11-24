@@ -1,0 +1,60 @@
+{
+	"name": "n8n-nodes-modelpilot",
+	"version": "0.1.0",
+	"description": "n8n community node for ModelPilot AI model routing - intelligent API calls across multiple AI providers with automatic optimization",
+	"license": "MIT",
+	"homepage": "https://modelpilot.co",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"modelpilot",
+		"ai",
+		"openai",
+		"anthropic",
+		"llm",
+		"router",
+		"machine-learning",
+		"chatgpt"
+	],
+	"author": {
+		"name": "Apostolos Dedeloudis",
+		"email": "apostolosded@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/modelpilot/n8n-nodes-modelpilot.git"
+	},
+	"scripts": {
+		"start": "pnpm build && docker restart n8n-dev && docker logs n8n-dev -f",
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/ModelpilotApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/Modelpilot/Modelpilot.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "^19.0.4",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}
